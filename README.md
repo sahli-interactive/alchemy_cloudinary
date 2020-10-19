@@ -72,6 +72,9 @@ Setting the configuration parameters can be done by:
 
   > **Note**: If you use more than one configuration option, the order of precedence is:
   `CLOUDINARY_URL` -> `cloud_name` -> `cloudinary.yml`
+  
+ * In **dragonfly.rb**
+   replace block `datastore :file` with `datastore :alchemy_cloudinary`
 
 ## Resources
 
